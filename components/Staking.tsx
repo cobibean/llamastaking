@@ -1,15 +1,15 @@
 'use client';
 
 import { ConnectButton, TransactionButton, useActiveAccount, useReadContract } from "thirdweb/react";
-import { chain } from "/Users/cobibean/llamastakingdapp/src/app/chain";
-import { client } from "/Users/cobibean/llamastakingdapp/src/app/client";
-import { NFT_CONTRACT, STAKING_CONTRACT } from "/Users/cobibean/llamastakingdapp/utils/contracts";
+import { chain } from "../src/app/chain";
+import { client } from "../src/app/client";
+import { NFT_CONTRACT, STAKING_CONTRACT } from "../utils/contracts";
 import { useEffect, useState } from "react";
 import { NFT } from "thirdweb";
 import { claimTo, getNFTs, ownerOf, totalSupply } from "thirdweb/extensions/erc721";
-import { StakeRewards } from "./StakeRewards";
-import { NFTCard } from "/Users/cobibean/llamastakingdapp/components/NFTCard";
-import { StakedNFTCard } from "/Users/cobibean/llamastakingdapp/components/StakedNFTCard";
+import { StakeRewards } from "../components/StakeRewards";
+import { NFTCard } from "../components/NFTCard";
+import { StakedNFTCard } from "../components/StakedNFTCard";
 
 export const Staking = () => {
     const account = useActiveAccount();

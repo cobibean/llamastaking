@@ -1,22 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-	line-height: 1.5;
-	font-weight: 400;
-	font-synthesis: none;
-	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	font-family: 'Inter', sans-serif;
-	font-optical-sizing: auto;
-	font-style: normal;
-	font-variation-settings: 'slnt' 0;
-}
-
 @layer base {
 	body {
-		@apply bg-zinc-950 text-neutral-200;
+	  @apply font-kirang bg-zinc-950 text-neutral-200; /* Use the custom Tailwind class */
 	}
+  }
+  
+
+
+/* Set the global font family */
+body {
+    font-family: 'Kirang Haerang', sans-serif !important; /* Use sans-serif fallback */
+    line-height: 1.5;
+    font-weight: 400; /* Use 400 weight if available */
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* Retain Tailwind utilities */
+@layer base {
+    body {
+        @apply bg-zinc-950 text-neutral-200;
+    }
 }

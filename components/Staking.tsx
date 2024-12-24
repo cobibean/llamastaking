@@ -8,8 +8,8 @@ import { useEffect, useState } from "react";
 import { NFT } from "thirdweb";
 import { claimTo, getNFTs, ownerOf, totalSupply } from "thirdweb/extensions/erc721";
 import { StakeRewards } from "../components/StakeRewards";
-import { NFTCard } from "../components/NFTCard";
-import { StakedNFTCard } from "../components/StakedNFTCard";
+import { NFTCard } from "./NFTCard";
+import { StakedNFTCard } from "./StakedNFTCard";
 
 export const Staking = () => {
     const account = useActiveAccount();

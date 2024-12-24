@@ -5,7 +5,7 @@ import thirdwebIcon from "@public/thirdweb.svg";
 import { client } from "./client";
 import { chain } from "./chain";
 import { ConnectButton } from "thirdweb/react";
-import { Staking } from "/Users/cobibean/llamastakingdapp/components/Staking";
+import { Staking } from "../../components/Staking";
 
 export default function Home() {
   return ( 
@@ -18,7 +18,7 @@ export default function Home() {
       width: "500 xp",
       gap: "1rem",
     }}>
-      <h1>LoFi Llama Staking dApp</h1>
+      <h1>LoFi Llama Staking</h1>
      <ConnectButton
     client={client}
     chain={chain}

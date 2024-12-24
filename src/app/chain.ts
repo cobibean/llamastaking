@@ -1,5 +1,4 @@
 import { defineChain } from "thirdweb";
-import { createThirdwebClient } from "thirdweb";
 
 const myChain = defineChain(1088);
 

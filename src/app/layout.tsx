@@ -6,9 +6,9 @@ import { ThirdwebProvider } from "thirdweb/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "thirdweb SDK + Next starter",
+  title: "LoFi Llama Staking",
   description:
-    "Starter template for using thirdweb SDK with Next.js App router",
+    "Stake your LoFi Llamas NFTs and earn rewards! Use your rewards to participate in the VESTA ecosystem.",
 };
 
 export default function RootLayout({

@@ -1,7 +1,7 @@
 import { chain } from "../src/app/chain";
 import { client } from "../src/app/client";
 import { getContract } from "thirdweb";
-import { stakingContractABI } from "/Users/cobibean/llamastakingdapp/utils/stakingContractABI";
+import { stakingContractABI } from "../utils/stakingContractABI";
 
 const nftContractAddress = "0x3d9a9BA8D73c81a754ebCCA6a2483A2F8C7a5403";
 const rewardTokenContractAddress = "0x848E329d9C3FF5D3078C4670c773651155386C46";

@@ -2,7 +2,7 @@ import { defineChain } from "thirdweb";
 
 export const chain = defineChain({
     chainId: 1088,
-    rpc: ["https://1088.rpc.thirdweb.com/${387000442d483230ddd1202aaba1b092}"],
+    rpc: ["https://andromeda.metis.io/?owner=1088"],
     name: "Metis Andromeda",
     chain: "METIS",
     nativeCurrency: {

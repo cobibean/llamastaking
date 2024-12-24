@@ -1,3 +1,6 @@
 import { defineChain } from "thirdweb";
+import { createThirdwebClient } from "thirdweb";
 
-export const chain = defineChain(1088)
+const myChain = defineChain(1088);
+
+export const chain = myChain;

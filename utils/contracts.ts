@@ -1,5 +1,5 @@
-import { chain } from "/Users/cobibean/llamastakingdapp/src/app/chain"; // Update the path to the correct location of the chain module
-import { client } from "/Users/cobibean/llamastakingdapp/src/app/client"; // Update the path to the correct location of the client module
+import { chain } from "../src/app/chain";
+import { client } from "../src/app/client";
 import { getContract } from "thirdweb";
 import { stakingContractABI } from "/Users/cobibean/llamastakingdapp/utils/stakingContractABI";
 
